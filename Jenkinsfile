@@ -21,6 +21,9 @@ pipeline {
     stage('Dir auch') {
       steps {
         echo 'Dir auch'
+        echo 'sdvs'
+        echo 'svsdv'
+        echo 'asfasvassva'
       }
     }
 
