@@ -9,7 +9,7 @@ pipeline {
 
     stage('zeit') {
       steps {
-        timestamps()
+        echo 'asdsafsa'
       }
     }
 
