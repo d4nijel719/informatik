@@ -7,11 +7,5 @@ pipeline {
       }
     }
 
-    stage('zeit') {
-      steps {
-        echo 'asdsafsa'
-      }
-    }
-
   }
 }
