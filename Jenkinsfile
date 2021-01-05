@@ -2,8 +2,19 @@ pipeline {
   agent any
   stages {
     stage('Guten Morgen') {
-      steps {
-        echo 'Guten Morgen Sexy'
+      parallel {
+        stage('Guten Morgen') {
+          steps {
+            echo 'Guten Morgen Sexy'
+          }
+        }
+
+        stage('cvcvb') {
+          steps {
+            echo 'xcvxcvxcv'
+          }
+        }
+
       }
     }
 
