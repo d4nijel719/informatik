@@ -13,7 +13,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
         echo 'LAD MICH ERST ZUM ESSEN EIN BEVOR DU MICH SEXY NENNST !!'
       }
