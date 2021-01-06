@@ -7,11 +7,5 @@ pipeline {
       }
     }
 
-    stage('ausführen') {
-      steps {
-        sh 'java HelloWorld.class'
-      }
-    }
-
   }
 }
