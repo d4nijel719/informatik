@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh 'javac bushed.java'
+        sh 'javac busted.java'
       }
     }
 
