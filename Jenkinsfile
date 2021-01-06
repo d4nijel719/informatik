@@ -7,9 +7,15 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
         echo 'Hello Lars'
+      }
+    }
+
+    stage('pimmel') {
+      steps {
+        echo 'hahaha'
       }
     }
 
